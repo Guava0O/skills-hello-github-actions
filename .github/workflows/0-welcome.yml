@@ -86,6 +86,6 @@ jobs:
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 0
+          from_step: 0 
           to_step: 1
           branch_name: welcome-workflow
